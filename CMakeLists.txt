@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.23)
+# run cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -B build
+# then run cmake --build build
+cmake_minimum_required(VERSION 3.22)
 
 # set the project name and version
 project(learncpp VERSION 0.0.1)
